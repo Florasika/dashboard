@@ -1,0 +1,54 @@
+nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  section {
+    margin-top: 50px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #333;
+    color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  label, input {
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 20px;
+  }
+  

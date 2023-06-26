@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dash.css">
+  </head>
+  <body>
+    
+    <nav>
+      <ul>
+        <li><a href="#users">Users</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#settings">Settings</a></li>
+        <li><a href="#orders">Orders</a></li>
+      </ul>
+    </nav>
+    <section id="users">
+      <h2>Users</h2>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Role</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>johndoe@example.com</td>
+            <td>Admin</td>
+          </tr>
+          <tr>
+            <td>Jane Smith</td>
+            <td>janesmith@example.com</td>
+            <td>User</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="products">
+      <h2>Products</h2>
+      <ul>
+        <li>
+          <h3>Product 1</h3>
+          <p>Description of product 1.</p>
+        </li>
+        <li>
+          <h3>Product 2</h3>
+          <p>Description of product 2.</p>
+        </li>
+      </ul>
+    </section>
+    <section id="settings">
+      <h2>Settings</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <input type="submit" value="Save">
+      </form>
+    </section>
+    <section id="orders">
+      <h2>Orders</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Order ID</th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Product 1</td>
+            <td>2</td>
+            <td>$20.00</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Product 2</td>
+            <td>1</td>
+            <td>$10.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+ 
+
+    <script src="dash.js"></script>
+  </body>
+</html>
